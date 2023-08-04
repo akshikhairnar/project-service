@@ -6,6 +6,7 @@ plugins {
 
 group = 'com.projects-service'
 version = '0.0.1-SNAPSHOT'
+apply plugin: 'java'
 
 java {
 	sourceCompatibility = '17'
@@ -20,6 +21,11 @@ configurations {
 repositories {
 	mavenCentral()
 }
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.projectsservice.project.ProjectApplication'
+	}
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -28,6 +34,8 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'io.dapr:dapr-sdk:1.9.0'
+	implementation 'io.dapr:dapr-sdk-springboot:1.9.0'
 }
 
 tasks.named('test') {
