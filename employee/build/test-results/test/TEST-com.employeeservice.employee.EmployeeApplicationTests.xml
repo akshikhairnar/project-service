@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.employeeservice.employee.EmployeeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-24T11:22:22" hostname="josh-Latitude-3420" time="0.415">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.employeeservice.employee.EmployeeApplicationTests" time="0.415"/>
+  <system-out><![CDATA[16:52:18.806 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.employeeservice.employee.EmployeeApplicationTests]: EmployeeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:52:18.889 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.employeeservice.employee.EmployeeApplication for test class com.employeeservice.employee.EmployeeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.2)
+
+2023-08-24T16:52:19.220+05:30  INFO 3280189 --- [    Test worker] c.e.employee.EmployeeApplicationTests    : Starting EmployeeApplicationTests using Java 17.0.8 with PID 3280189 (started by josh in /home/josh/Downloads/Gradle_26_July/employee)
+2023-08-24T16:52:19.222+05:30  INFO 3280189 --- [    Test worker] c.e.employee.EmployeeApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-08-24T16:52:19.899+05:30  INFO 3280189 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-24T16:52:20.058+05:30  INFO 3280189 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 2 JPA repository interfaces.
+2023-08-24T16:52:20.480+05:30  INFO 3280189 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-24T16:52:20.520+05:30  INFO 3280189 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-24T16:52:20.522+05:30  INFO 3280189 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-24T16:52:20.637+05:30  INFO 3280189 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-24T16:52:20.739+05:30  INFO 3280189 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-24T16:52:20.752+05:30  INFO 3280189 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-24T16:52:21.046+05:30  INFO 3280189 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@682266d8
+2023-08-24T16:52:21.047+05:30  INFO 3280189 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-24T16:52:21.248+05:30  INFO 3280189 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-24T16:52:21.857+05:30  INFO 3280189 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-24T16:52:21.860+05:30  INFO 3280189 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-24T16:52:22.537+05:30  WARN 3280189 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-24T16:52:22.895+05:30  INFO 3280189 --- [    Test worker] c.e.employee.EmployeeApplicationTests    : Started EmployeeApplicationTests in 3.892 seconds (process running for 4.774)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
